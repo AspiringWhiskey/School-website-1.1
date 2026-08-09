@@ -68,10 +68,26 @@ img {
     position: relative;
     padding-left: 2em;
 }
+/* Layout for the hero content so the logo sits beside the text */
+.hero-content {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.hero-logo {
+    width: 120px;
+    height: auto;
+    display: block;
+    flex-shrink: 0;
+}
+
 /* BIG text styling for the hero section text */
 .hero-text {
     font-size: 4em;
     font-weight: bold;
+    line-height: 1.1;
+    margin: 0;
 }
 
 /* nice big font on a banner style background */
